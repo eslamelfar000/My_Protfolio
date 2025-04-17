@@ -536,18 +536,26 @@ section .box{
 --------------------------------------------------------------*/
 
 .skills .progress {
-  height: 60px;
+  height: 40px;
   display: block;
   background: none;
   border-radius: 0;
+}
+
+.skills .progress i::before{
+  color: #35e888;
+  font-size: 20px; 
+  margin-right: 10px;
 }
 
 .skills .progress .skill {
   padding: 10px 0;
   margin: 0;
   text-transform: uppercase;
-  display: block;
+  display: flex;
+  align-items: center;
   font-weight: 600;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
